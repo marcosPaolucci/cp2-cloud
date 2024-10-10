@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flower Classification</title>
+</head>
+<body>
+    <h1>Classifique a flor Iris usando KNN</h1>
+    <form action="{{ url_for('predict') }}" method="POST">
+        <label for="sepal_length">Sepal Length:</label>
+        <input type="text" name="sepal_length" required><br>
+        <label for="sepal_width">Sepal Width:</label>
+        <input type="text" name="sepal_width" required><br>
+        <label for="petal_length">Petal Length:</label>
+        <input type="text" name="petal_length" required><br>
+        <label for="petal_width">Petal Width:</label>
+        <input type="text" name="petal_width" required><br>
+        <button type="submit">Classificar</button>
+    </form>
+</body>
+</html>
