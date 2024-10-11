@@ -1,4 +1,4 @@
-## Este é um código de KNN. Rodar o `app.py`
+## Este é um código com algoritmo KNN. Caso queira rodar local sem Azure execute o `app.py`
 
 # Deploy a Python (Flask) web app to Azure App Service - Sample Application
 
